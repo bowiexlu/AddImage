@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+header, nav, section, article, footer{
+	border:1px solid grey;
+	margin:5px;
+	padding:8px;
+}
+nav{
+	background:#CCC;
+}
+nav ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+nav ul li{
+	display:inline;
+	margin:5px;
+}
+nav a:link a:visited a:active{
+	text-decoration:none;
+}
+nav a:hover{
+	text-decoration:underline;
+	background-color:#9CF;
+	font-weight:bold;
+}
+
+header, footer{
+	background:#9CF;
+}
+
+article{
+	margin:10px;
+}
+img{
+	border:medium outset #9E9E9E;
+	padding:5px;
+	margin:10px;
+}
